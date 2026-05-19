@@ -4,6 +4,13 @@
 
 AgentProof is a local-first web app for builders applying to grants, hackathons, and model credit programs. It converts raw evidence -- agent logs, GitHub links, screenshots, workflow notes, and deployment URLs -- into structured proof packs and copy-ready application answers.
 
+## Live Demo
+
+- Demo: https://agentproof-phi.vercel.app
+- Builder: https://agentproof-phi.vercel.app/builder
+- Examples: https://agentproof-phi.vercel.app/examples
+- PRD: https://agentproof-phi.vercel.app/PRD.md
+
 ## Highlights
 
 - Project profile and public link capture

@@ -8,7 +8,7 @@ const sample: ProofInput = {
   projectName: "AgentProof",
   tagline: "a reviewer-ready proof-pack generator for AI agent builders",
   githubUrl: "https://github.com/HakimIqbal/agentproof",
-  demoUrl: "https://agentproof.vercel.app",
+  demoUrl: "https://agentproof-phi.vercel.app",
   problem: "AI builders use agents heavily, but evidence is fragmented across logs, screenshots, commits, and deployment notes.",
   users: "grant applicants, hackathon builders, open-source developers, and ecosystem reviewers",
   impact: "It reduces application preparation time and helps reviewers verify AI-assisted work faster.",
@@ -19,7 +19,7 @@ const sample: ProofInput = {
   verification: "Each claim is mapped to GitHub, Vercel, terminal logs, screenshots, or generated Markdown artifacts.",
   evidence: [
     { title: "Public repository", type: "GitHub link", source: "https://github.com/HakimIqbal/agentproof", content: "Open-source code, README, docs, and examples.", claim: "Project is real and reviewable." },
-    { title: "Live Vercel demo", type: "demo URL", source: "https://agentproof.vercel.app", content: "Public no-login builder flow.", claim: "Project is deployed and usable." },
+    { title: "Live Vercel demo", type: "demo URL", source: "https://agentproof-phi.vercel.app", content: "Public no-login builder flow.", claim: "Project is deployed and usable." },
     { title: "Hermes build session", type: "agent session", source: "local terminal screenshot", content: "Agent planned PRD, created app files, and ran validation.", claim: "AI agent workflow was used to build the project." },
   ],
 };
